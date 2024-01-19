@@ -1,0 +1,30 @@
+_id: req_eba15f113fcc43c7ae8cae4dacac65f8
+type: Request
+parentId: wrk_2355a1d3b6cb4fb38694faef8e40139c
+modified: 1705628742405
+created: 1670992068326
+url: http://localhost:8080/register
+name: Registro
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "username": "milenamadsen",
+      "password": "S2l4c0k4@.",
+      "email": "milena.madsen@example.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670992068326
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
